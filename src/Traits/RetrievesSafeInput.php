@@ -16,6 +16,6 @@ trait RetrievesSafeInput
      */
     public function __get($key): mixed
     {
-        return Arr::get($this->safe(), $key, fn () => $this->route($key));
+        return Arr::get($this->validated(), $key, fn () => $this->route($key));
     }
 }
