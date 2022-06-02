@@ -1,8 +1,8 @@
 <?php
 
-namespace MichaelRubel\PackageTemplate\Tests;
+namespace MichaelRubel\HelpfulTraits\Tests;
 
-use MichaelRubel\PackageTemplate\TemplateServiceProvider;
+use MichaelRubel\HelpfulTraits\HelpfulTraitsServiceProvider;
 use Orchestra\Testbench\TestCase as Orchestra;
 
 class TestCase extends Orchestra
@@ -15,7 +15,7 @@ class TestCase extends Orchestra
     protected function getPackageProviders($app): array
     {
         return [
-            TemplateServiceProvider::class,
+            HelpfulTraitsServiceProvider::class,
         ];
     }
 
