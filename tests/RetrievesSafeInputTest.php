@@ -22,5 +22,6 @@ class RetrievesSafeInputTest extends TestCase
         $this->assertNull($formRequest->unsafe);
         $this->assertTrue($formRequest->all()['unsafe']);
         $this->assertSame('It Is Safe!', $formRequest->safe);
+        $this->assertNull($formRequest->safe()->collect()->get('unsafe'));
     }
 }
