@@ -1,9 +1,9 @@
 <?php
 
-namespace MichaelRubel\HelpfulTraits\Tests;
+namespace MichaelRubel\SafeFormRequest\Tests;
 
 use Illuminate\Support\Facades\Validator;
-use MichaelRubel\HelpfulTraits\Tests\Stubs\MySafeFormRequest;
+use MichaelRubel\SafeFormRequest\Tests\Stubs\MySafeFormRequest;
 
 class RetrievesSafeInputTest extends TestCase
 {

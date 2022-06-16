@@ -1,8 +1,8 @@
 <?php
 
-namespace MichaelRubel\HelpfulTraits\Tests;
+namespace MichaelRubel\SafeFormRequest\Tests;
 
-use MichaelRubel\HelpfulTraits\HelpfulTraitsServiceProvider;
+use MichaelRubel\SafeFormRequest\SafeFormRequestServiceProvider;
 use Orchestra\Testbench\TestCase as Orchestra;
 
 class TestCase extends Orchestra
@@ -15,7 +15,7 @@ class TestCase extends Orchestra
     protected function getPackageProviders($app): array
     {
         return [
-            HelpfulTraitsServiceProvider::class,
+            SafeFormRequestServiceProvider::class,
         ];
     }
 

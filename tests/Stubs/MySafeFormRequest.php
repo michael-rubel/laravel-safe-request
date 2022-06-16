@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace MichaelRubel\HelpfulTraits\Tests\Stubs;
+namespace MichaelRubel\SafeFormRequest\Tests\Stubs;
 
 use Illuminate\Foundation\Http\FormRequest;
-use MichaelRubel\HelpfulTraits\Traits\RetrievesSafeInput;
+use MichaelRubel\SafeFormRequest\Traits\RetrievesSafeInput;
 
 class MySafeFormRequest extends FormRequest
 {

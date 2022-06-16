@@ -1,12 +1,14 @@
 {
-    "name": "michael-rubel/laravel-helpful-traits",
-    "description": "Useful traits you may include in your Laravel application.",
+    "name": "michael-rubel/laravel-safe-request",
+    "description": "Makes your FormRequest keys retrieved from `$request->safe()` method by default to prevent retrieval of unvalidated input values.",
     "keywords": [
         "michael-rubel",
         "laravel",
-        "laravel-helpful-traits"
+        "laravel-safe-request",
+        "form-request",
+        "safe-input"
     ],
-    "homepage": "https://github.com/michael-rubel/laravel-helpful-traits",
+    "homepage": "https://github.com/michael-rubel/laravel-safe-request",
     "license": "MIT",
     "authors": [
         {
@@ -31,12 +33,12 @@
     },
     "autoload": {
         "psr-4": {
-            "MichaelRubel\\HelpfulTraits\\": "src"
+            "MichaelRubel\\SafeFormRequest\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "MichaelRubel\\HelpfulTraits\\Tests\\": "tests"
+            "MichaelRubel\\SafeFormRequest\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -49,7 +51,7 @@
     "extra": {
         "laravel": {
             "providers": [
-              "MichaelRubel\\HelpfulTraits\\HelpfulTraitsServiceProvider"
+              "MichaelRubel\\SafeFormRequest\\SafeFormRequestServiceProvider"
             ]
         }
     },

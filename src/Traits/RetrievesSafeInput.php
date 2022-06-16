@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace MichaelRubel\HelpfulTraits\Traits;
+namespace MichaelRubel\SafeFormRequest\Traits;
 
 use Illuminate\Support\Arr;
 
