@@ -1,3 +1,6 @@
+![Safe input by default](https://user-images.githubusercontent.com/37669560/174083829-60a0f758-ebe3-41d9-9a4a-c0c49972977e.png)
+
+
 # Laravel Safe Request
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/michael-rubel/laravel-safe-request.svg?style=flat-square&logo=packagist)](https://packagist.org/packages/michael-rubel/laravel-safe-request)
 [![Total Downloads](https://img.shields.io/packagist/dt/michael-rubel/laravel-safe-request.svg?style=flat-square&logo=packagist)](https://packagist.org/packages/michael-rubel/laravel-safe-request)
@@ -7,6 +10,7 @@
 [![PHPStan](https://img.shields.io/github/workflow/status/michael-rubel/laravel-safe-request/phpstan/main?style=flat-square&label=larastan&logo=laravel)](https://github.com/michael-rubel/laravel-safe-request/actions)
 
 Makes your FormRequest keys retrieved from `$request->safe()` method by default to prevent retrieval of unvalidated input values.
+
 ---
 
 The package requires PHP `^8.x` and Laravel `^8.71` or `^9.0`.
