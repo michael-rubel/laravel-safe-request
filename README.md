@@ -30,7 +30,7 @@ Apply trait for your base Form Request in Laravel:
 use RetrievesSafeInput;
 ```
 
-Any value accessed be the magic method (like `$request->key`) now will be retrieved from the `$request->safe()`.
+Any value accessed by the magic method (like `$request->key`) now will be retrieved from the `$request->safe()`.
 
 ## Testing
 ```bash
