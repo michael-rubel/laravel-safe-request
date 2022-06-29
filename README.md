@@ -1,5 +1,4 @@
-![Safe input by default](https://user-images.githubusercontent.com/37669560/174083829-60a0f758-ebe3-41d9-9a4a-c0c49972977e.png)
-
+![Safe input by default](https://user-images.githubusercontent.com/37669560/176385501-6cd45624-4b7f-4c16-8ba7-84ddea5c9d37.png)
 
 # Laravel Safe Request
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/michael-rubel/laravel-safe-request.svg?style=flat-square&logo=packagist)](https://packagist.org/packages/michael-rubel/laravel-safe-request)
