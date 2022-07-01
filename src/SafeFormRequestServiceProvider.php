@@ -12,8 +12,7 @@ class SafeFormRequestServiceProvider extends PackageServiceProvider
     /**
      * Configure the package.
      *
-     * @param Package $package
-     *
+     * @param  Package  $package
      * @return void
      */
     public function configurePackage(Package $package): void
