@@ -16,12 +16,12 @@ trait RetrievesSafeInput
      */
     public function __get($key): mixed
     {
-        $value = rescue(
+        $values = rescue(
             fn () => $this->validated(),
             fn () => $this->all(),
             false
         );
 
-        return Arr::get($value, $key, fn () => $this->route($key));
+        return Arr::get($values, $key, fn () => $this->route($key));
     }
 }
