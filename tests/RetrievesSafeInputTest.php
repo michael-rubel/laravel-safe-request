@@ -12,7 +12,7 @@ class RetrievesSafeInputTest extends TestCase
     {
         $formRequest = app(MySafeFormRequest::class);
         $formRequest->initialize([
-            'safe'   => 'It Is Safe!',
+            'safe' => 'It Is Safe!',
             'unsafe' => true,
         ]);
         $formRequest->setValidator(
