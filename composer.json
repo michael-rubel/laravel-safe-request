@@ -19,16 +19,16 @@
     ],
     "require": {
         "php": "^8.0",
-        "illuminate/http": "^9.0",
+        "illuminate/contracts": "^9.0|^10.0",
         "spatie/laravel-package-tools": "^1.11"
     },
     "require-dev": {
         "brianium/paratest": "^6.3",
-        "laravel/pint": "^0.2.1",
+        "laravel/pint": "^1.0",
         "mockery/mockery": "^1.4.4",
         "nunomaduro/collision": "^6.0",
-        "nunomaduro/larastan": "^1.0",
-        "orchestra/testbench": "^7.0",
+        "nunomaduro/larastan": "^2.0",
+        "orchestra/testbench": "^7.0|^8.0",
         "phpunit/phpunit": "^9.5"
     },
     "autoload": {
